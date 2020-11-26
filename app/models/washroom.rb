@@ -1,0 +1,2 @@
+class Washroom < ApplicationRecord
+end

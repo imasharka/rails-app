@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsApp</title>
+    <title>PooPee Now!</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
+    <h1>PooPee Now!</h1>
     <%= yield %>
+    <p>Footer Placeholder</p>
+    <p><%= link_to "Know more about us", about_path %> <%= link_to "Meet our team", contact_path %></p>
   </body>
 </html>
